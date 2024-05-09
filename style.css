@@ -1,0 +1,75 @@
+/* h1{
+    color: #ffa511;
+    font-family: League spartan;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: double underline rgb(19, 19, 99);
+} */
+/* universal selector */
+/* *{
+   font-family: 'Courier New';
+} */
+/* id selector */
+/* #Login{
+    color: blue;
+}
+#SignUp{
+    color: green;
+    background-color: white;
+    font-size: normal;
+} */
+/* class selector */
+/* .post{
+    font-weight: bolds;
+} */
+/* decending selector */
+/* nav ul li a{
+    color: green;
+} */
+/* sibling comination */
+/* h3 + button{
+    background-color: chartreuse;
+} */
+/* pseudo class */
+/* button:active{
+    color: chartreuse;
+    background-color: black;
+} */
+/* input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+} */
+/* h3:nth-of-type(3n){
+    color: blue;
+    background-color: coral;
+} */
+#maintopic{
+color: blue;
+}
+*{
+    text-align: center;
+    font-family:Georgia;
+}
+.post{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    color: azure;
+    background-color: purple;
+}
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+p:nth-of-type(2n){
+    background-color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+#yes:checked + label{
+    color:green;
+}

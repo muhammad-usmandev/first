@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="\action.php">
+        <div>
+            <label for="username">username :</label>
+            <input type="text" placeholder="username" id="username">  
+        </div>
+        <div>
+       <label for="password">password :</label>
+       <input type="password"placeholder="password" id="password">
+       </div>
+       <button type="reset">reset</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+    <input type="text" placeholder="search in youtube" name="search_query">
+    <button>search</button>
+
+</form>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search in google" name="q">
+        <button>search</button>
+        <input type="checkbox" id="age" name="age">
+        <label for="age">i am 18+</label>
+        <button type="submit">submit</button>
+        <!-- select range -->
+        <label for="vol">volume</label>
+        <input type="range" id="vol" min="0" max="100" step="15" value="50"/>
+        <!-- text area -->
+        <label for="feadback">give feadback</label>
+        <textarea id="feadback" name="feadback"></textarea>
+    </form>
+        <br>
+        <div>
+        <input type="radio" name="fruit" id="apple" value="apple"/>
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="banana" value="banana"/>
+        <label for="banana">banana</label>
+        <input type="radio" name="fruit" id="orange" value="orange"/>
+        <label for="orange">orange</label>
+    </div>
+    choose your choice
+    <select name="profession" id="profession">
+        <option >select the option</option>
+        <option value="stu" >student </option>
+        <option value="dev">developer</option>
+    </select>
+
+
+
+    
+</body>
+</html>
