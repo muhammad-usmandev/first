@@ -1,0 +1,37 @@
+h2{
+    color: orange;
+}
+span{
+    color: rgb(195, 92, 92);
+}
+.card{
+    height: 400px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 2s;
+    margin-top: 10px;
+    
+}
+img{
+
+    height: 200px;
+    width: 430px;
+    padding:10px;
+    
+    border: 0 solid white;
+    border-radius: 20px;
+}
+div h3{
+    padding-left: 10px;
+}
+div p{
+    padding-left: 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 8px rgb(125, 125, 233);
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
